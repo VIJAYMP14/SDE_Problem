@@ -1,0 +1,24 @@
+Classic 2048 gameplay on a configurable 4x4 grid.
+Java backend managing game state, moves, merges, and score.
+Angular frontend dynamically displays the game board and score.
+Full state synchronization via REST calls.
+Keyboard controls for moving tiles (Arrow keys).
+Game restart from the UI.
+Game over detection with alerts.
+
+Layer          |  Technology            
+---------------+------------------------
+Backend        |  Java 17, Spring Boot 3
+Frontend       |  Angular 17, TypeScript
+Communication  |  REST APIs using HTTP  
+
+mvn clean install
+mvn spring-boot:run
+
+
+Front End 
+npm install
+ng serve
+
+
+Open browser at http://localhost:4200/.
